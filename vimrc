@@ -44,9 +44,10 @@ set grepprg=ack " FTW
 
 
 " Maps
-
 let mapleader = ","
 
+nnoremap <silent> <leader>n :NERDTreeToggle<CR>
+inoremap <silent> <leader>n :NERDTreeToggle<CR>
 
 " plugins
 set runtimepath^=~/.vim/bundle/ctrlp.vim
