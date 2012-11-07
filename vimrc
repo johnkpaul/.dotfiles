@@ -51,3 +51,5 @@ inoremap <silent> <leader>n :NERDTreeToggle<CR>
 
 " plugins
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+autocmd BufReadPost fugitive://* set bufhidden=delete
+
