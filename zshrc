@@ -32,6 +32,8 @@ ZSH_THEME="robbyrussell"
 plugins=(git vi-mode)
 
 source $ZSH/oh-my-zsh.sh
+source ~/.profile
+bindkey "^R" history-incremental-search-backward
 
 # Customize to your needs...
 export PATH=/Users/jpaul/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jpaul/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jpaul/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jpaul/.rvm/bin:/opt/workspace/clojurescript/bin:/Users/jpaul/bin:/Users/jpaul/bin/play:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jpaul/scripts:/Users/jpaul/bin:/Users/jpaul/pear/bin:/usr/local/sbin
