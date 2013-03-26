@@ -13,8 +13,8 @@ set shiftwidth=4
 set softtabstop=4
 set autoindent
 set smartindent
+colorscheme darkblue
 set syntax=automatic
-
 set backspace=indent,eol,start " make backspace a more flexible
 set backupdir=~/.vim/backup " where to put backup files
 set directory=~/.vim/tmp
