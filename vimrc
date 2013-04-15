@@ -9,8 +9,8 @@ filetype indent on    " Enable filetype-specific indenting
 filetype plugin on    " Enable filetype-specific plugins
 set expandtab
 set smartcase
-set shiftwidth=4
-set softtabstop=4
+set shiftwidth=2
+set softtabstop=2
 set autoindent
 set smartindent
 colorscheme darkblue
