@@ -53,3 +53,5 @@ inoremap <silent> <leader>n :NERDTreeToggle<CR>
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 autocmd BufReadPost fugitive://* set bufhidden=delete
 
+cnoreabbrev <expr> W ((getcmdtype() is# ':' && getcmdline() is# 'W')?('w'):('W'))
+cnoreabbrev <expr> B ((getcmdtype() is# ':' && getcmdline() is# 'B')?('b'):('B'))
