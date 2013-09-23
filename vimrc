@@ -40,7 +40,8 @@ set statusline=[%n]\ %<%.99f\ %h%w%m%r%{exists('*CapsLockStatusline')?CapsLockSt
 set tags+=../tags,../../tags,../../../tags,../../../../tags,tmp/tags
 set visualbell
 set nu " line numbers
-set grepprg=ack " FTW
+set grepprg=ag " FTW
+set hidden
 
 
 " Maps
